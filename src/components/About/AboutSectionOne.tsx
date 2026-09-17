@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Platform, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Une équipe technologie à votre service."
+                paragraph="Embroswil conçoit des sites web et des applications sur mesure, en s'appuyant sur des technologies modernes et une approche pragmatique, du cahier des charges à la mise en ligne."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Qualité soignée" />
+                    <List text="Technologies modernes" />
+                    <List text="Suivi dans la durée" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Sites web & applications" />
+                    <List text="Solutions sur mesure" />
+                    <List text="Accompagnement personnalisé" />
                   </div>
                 </div>
               </div>

@@ -10,8 +10,8 @@ const project = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest projects"
-          paragraph=""
+          title="Nos projets"
+          paragraph="Quelques réalisations d'embroswil"
           center
         />
 

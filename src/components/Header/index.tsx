@@ -55,18 +55,11 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo/logo-sixcool.svg"
-                  alt="logo"
+                  src="/images/logo/logo-embroswil.png"
+                  alt="embroswil"
                   width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo-sixcool.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
+                  height={40}
+                  className="w-full max-w-[46px]"
                 />
               </Link>
             </div>

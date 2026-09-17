@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | SixCool Agency",
-  description: "This is About Page for Agency Nextjs Template",
+  title: "À propos | Embroswil",
+  description: "Découvrez embroswil, agence technologie spécialisée en sites web et applications.",
   // other metadata
 };
 
@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="À propos"
+        description="Embroswil est une agence technologie qui conçoit des sites web et applications sur mesure, avec une approche pragmatique et des technologies modernes."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

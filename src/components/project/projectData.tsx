@@ -3,45 +3,31 @@ import { project } from "@/types/project";
 const projectData: project[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Boza",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Plateforme tout-en-un pour les demandes de visa, d'immigration, d'études et de travail à l'étranger, pensée pour simplifier des démarches souvent complexes.",
     image: "/images/project/project-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Embroswil",
       image: "/images/project/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Plateforme web",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["plateforme"],
+    publishDate: "2026",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Akasa",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Application qui génère automatiquement des vidéos à partir d'un simple sujet : script rédigé par IA et habillage visuel généré via l'API Pexels.",
     image: "/images/project/project-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Embroswil",
       image: "/images/project/author-02.png",
-      designation: "Content Writer",
+      designation: "Application IA",
     },
-    tags: ["computer"],
-    publishDate: "2025",
-  },
-  {
-    id: 3,
-    title: "Tips to quickly improve your coding speed.",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/project/project-03.jpg",
-    author: {
-      name: "Lethium Deo",
-      image: "/images/project/author-03.png",
-      designation: "Graphic Designer",
-    },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["ia"],
+    publishDate: "2026",
   },
 ];
 export default projectData;

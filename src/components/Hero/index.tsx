@@ -12,20 +12,23 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  SixCool builds innovative Web3 apps and full-stack platforms to power your business.
+                  Embroswil conçoit des sites web et applications sur mesure pour propulser votre activité.
                 </h1>
+                <p className="mx-auto mb-9 max-w-[600px] text-base text-body-color dark:text-body-color-dark sm:text-lg">
+                  Une équipe technologie qui transforme vos idées en produits web et mobiles concrets, du prototype au déploiement.
+                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-Agency"
+                    href="/project"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Pro
+                    Voir nos projets
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/Agency-nextjs"
+                    href="/contact"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Our GitHub
+                    Nous contacter
                   </Link>
                 </div>
               </div>
