@@ -14,7 +14,7 @@ const Footer = () => {
                   <Image
                     src="/images/logo/logo-embroswil.png"
                     alt="embroswil"
-                    className="max-w-[46px]"
+                    className="aspect-square max-w-[46px] rounded-full object-cover"
                     width={140}
                     height={40}
                   />

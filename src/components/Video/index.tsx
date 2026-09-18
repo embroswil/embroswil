@@ -13,7 +13,7 @@ const Video = () => {
     <section className="relative z-10 pb-16 pt-32 md:pb-20 md:pt-36 lg:pb-28 lg:pt-44">
       <div className="container">
         <SectionTitle
-          title="Prêts à vous accompagner"
+          title="Ça arrive"
           paragraph=""
           center
           mb="80px"

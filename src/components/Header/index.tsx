@@ -59,7 +59,7 @@ const Header = () => {
                   alt="embroswil"
                   width={140}
                   height={40}
-                  className="w-full max-w-[46px]"
+                  className="aspect-square w-full max-w-[46px] rounded-full object-cover"
                 />
               </Link>
             </div>
