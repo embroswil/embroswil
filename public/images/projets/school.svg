@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#052e2b"/><stop offset="0.6" stop-color="#0f5132"/><stop offset="1" stop-color="#031a18"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e2e8f0"/></linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#15803d"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fde047"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4ade80" stop-opacity="0.4"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="260" cy="270" r="250" fill="url(#glow)"/>
+  <!-- school building -->
+  <g transform="translate(70 150)">
+    <path d="M0 110 L150 30 L300 110 Z" fill="url(#gold)"/>
+    <rect x="20" y="110" width="260" height="170" fill="#ffffff" fill-opacity="0.92"/>
+    <rect x="130" y="190" width="40" height="90" rx="4" fill="#15803d"/>
+    <g fill="#bbf7d0"><rect x="45" y="135" width="40" height="34" rx="4"/><rect x="215" y="135" width="40" height="34" rx="4"/><rect x="45" y="200" width="40" height="34" rx="4"/><rect x="215" y="200" width="40" height="34" rx="4"/></g>
+    <circle cx="150" cy="80" r="16" fill="#ffffff"/><path d="M150 70 V80 H158" stroke="#15803d" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M150 30 V-10" stroke="#ffffff" stroke-width="3"/><path d="M150 -10 h30 l-8 9 l8 9 h-30 z" fill="#ef4444"/>
+  </g>
+  <!-- report card -->
+  <g transform="translate(420 70) rotate(4)">
+    <rect width="220" height="230" rx="16" fill="url(#card)"/>
+    <rect x="20" y="22" width="110" height="12" rx="6" fill="#0f5132"/>
+    <rect x="20" y="44" width="70" height="8" rx="4" fill="#94a3b8"/>
+    <g font-family="Arial" font-weight="bold" font-size="18">
+      <rect x="20" y="74" width="120" height="8" rx="4" fill="#cbd5e1"/><text x="196" y="84" text-anchor="end" fill="#15803d">17</text>
+      <rect x="20" y="108" width="100" height="8" rx="4" fill="#cbd5e1"/><text x="196" y="118" text-anchor="end" fill="#15803d">15</text>
+      <rect x="20" y="142" width="130" height="8" rx="4" fill="#cbd5e1"/><text x="196" y="152" text-anchor="end" fill="#15803d">18</text>
+    </g>
+    <rect x="20" y="176" width="180" height="36" rx="10" fill="url(#acc)"/>
+    <rect x="34" y="190" width="90" height="8" rx="4" fill="#ffffff"/>
+  </g>
+  <!-- phone payment -->
+  <g transform="translate(560 230)">
+    <rect width="150" height="230" rx="26" fill="#0b1412" stroke="#ffffff" stroke-opacity="0.3" stroke-width="3"/>
+    <rect x="12" y="14" width="126" height="202" rx="18" fill="#ffffff" fill-opacity="0.08"/>
+    <circle cx="75" cy="78" r="32" fill="url(#acc)"/>
+    <path d="M60 78 l10 10 l20 -20" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="32" y="128" width="86" height="10" rx="5" fill="#ffffff" fill-opacity="0.85"/>
+    <rect x="44" y="148" width="62" height="8" rx="4" fill="url(#gold)"/>
+    <rect x="28" y="176" width="94" height="26" rx="13" fill="url(#acc)"/>
+  </g>
+  <!-- coins -->
+  <g><circle cx="520" cy="420" r="22" fill="url(#gold)"/><circle cx="520" cy="420" r="14" fill="none" stroke="#b45309" stroke-width="3"/>
+  <circle cx="490" cy="400" r="16" fill="url(#gold)" fill-opacity="0.85"/></g>
+</svg>

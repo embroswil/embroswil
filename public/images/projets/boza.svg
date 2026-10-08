@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1a4a"/><stop offset="0.6" stop-color="#1e3a8a"/><stop offset="1" stop-color="#081233"/></linearGradient>
+    <linearGradient id="pass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#4c1d95"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#60a5fa" stop-opacity="0.5"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="250" r="280" fill="url(#glow)"/>
+  <!-- globe -->
+  <g transform="translate(400 255)" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2">
+    <circle r="170"/><ellipse rx="70" ry="170"/><ellipse rx="140" ry="170"/><path d="M-170 0 H170"/><path d="M-150 -80 H150"/><path d="M-150 80 H150"/>
+  </g>
+  <!-- flight path -->
+  <path d="M120 380 C 260 180, 520 120, 690 150" fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="3" stroke-dasharray="8 10"/>
+  <circle cx="120" cy="380" r="9" fill="#fbbf24"/>
+  <circle cx="690" cy="150" r="9" fill="#34d399"/>
+  <g transform="translate(560 128) rotate(12)">
+    <path d="M-34 0 L30 -6 Q44 0 30 6 Z" fill="#ffffff"/>
+    <path d="M-2 -4 L-18 -30 L-8 -30 L14 -4 Z" fill="#ffffff"/>
+    <path d="M-2 4 L-18 30 L-8 30 L14 4 Z" fill="#ffffff"/>
+    <path d="M-30 -2 L-40 -14 L-34 -14 L-22 -2 Z" fill="#ffffff"/>
+  </g>
+  <!-- passport -->
+  <g transform="rotate(-8 210 260)">
+    <rect x="130" y="150" width="170" height="230" rx="16" fill="url(#pass)"/>
+    <circle cx="215" cy="240" r="40" fill="none" stroke="#fcd34d" stroke-width="4"/>
+    <ellipse cx="215" cy="240" rx="16" ry="40" fill="none" stroke="#fcd34d" stroke-width="3"/>
+    <path d="M175 240 H255" stroke="#fcd34d" stroke-width="3"/>
+    <rect x="170" y="310" width="90" height="10" rx="5" fill="#fcd34d"/>
+    <rect x="185" y="330" width="60" height="8" rx="4" fill="#fcd34d" fill-opacity="0.6"/>
+  </g>
+  <!-- graduation cap -->
+  <g transform="translate(610 330)">
+    <circle r="70" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+    <path d="M-48 -6 L0 -28 L48 -6 L0 16 Z" fill="#ffffff"/>
+    <path d="M-28 6 V26 Q0 42 28 26 V6 L0 18 Z" fill="#e0e7ff"/>
+    <path d="M40 -2 V26" stroke="#fbbf24" stroke-width="4"/><circle cx="40" cy="30" r="6" fill="#fbbf24"/>
+  </g>
+  <!-- approved stamp -->
+  <g transform="translate(360 370) rotate(-12)">
+    <rect x="-70" y="-26" width="140" height="52" rx="10" fill="none" stroke="#34d399" stroke-width="4"/>
+    <path d="M-48 0 l12 12 l22 -24" fill="none" stroke="#34d399" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="-4" y="-8" width="56" height="8" rx="4" fill="#34d399"/><rect x="-4" y="6" width="36" height="6" rx="3" fill="#34d399" fill-opacity="0.6"/>
+  </g>
+</svg>

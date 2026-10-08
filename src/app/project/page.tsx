@@ -24,7 +24,7 @@ const ProjetsPage = async () => {
               Les projets arrivent bientôt.
             </p>
           ) : (
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mx-auto flex max-w-[720px] flex-col gap-6">
               {projets.map((projet) => (
                 <ProjetCard key={projet.id} projet={projet} />
               ))}

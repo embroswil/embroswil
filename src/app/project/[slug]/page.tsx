@@ -40,7 +40,7 @@ export default async function ProjetPage({ params }: Props) {
               <img
                 src={projet.image_couverture}
                 alt={projet.titre}
-                className="h-full w-full object-cover object-top"
+                className="h-full w-full object-cover"
               />
             ) : (
               <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary/80 to-black">
