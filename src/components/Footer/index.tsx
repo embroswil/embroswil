@@ -25,8 +25,8 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://www.facebook.com/share/1AEnsCy2Qh/"
+                    aria-label="Facebook"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -45,8 +45,8 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://x.com/embangnoho"
+                    aria-label="X"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -67,8 +67,8 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://youtube.com/@rostantembangnoho"
+                    aria-label="YouTube"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -83,8 +83,8 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
-                    aria-label="social-link"
+                    href="https://www.linkedin.com/in/rostant-embangnoho-a82233379"
+                    aria-label="LinkedIn"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
