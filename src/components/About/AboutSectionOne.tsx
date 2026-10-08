@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Une équipe technologie à votre service."
-                paragraph="Embroswil conçoit des sites web et des applications sur mesure, en s'appuyant sur des technologies modernes et une approche pragmatique, du cahier des charges à la mise en ligne."
+                title="Un studio qui crée ses propres produits."
+                paragraph="Embroswil imagine, développe et lance ses propres produits numériques. De l'idée au lancement, nous maîtrisons chaque étape pour mettre sur le marché des solutions utiles et durables."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Qualité soignée" />
+                    <List text="Produits maison" />
                     <List text="Technologies modernes" />
-                    <List text="Suivi dans la durée" />
+                    <List text="Lancement rapide" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Sites web & applications" />
-                    <List text="Solutions sur mesure" />
-                    <List text="Accompagnement personnalisé" />
+                    <List text="Web & mobile" />
+                    <List text="Intelligence artificielle" />
+                    <List text="Amélioration continue" />
                   </div>
                 </div>
               </div>

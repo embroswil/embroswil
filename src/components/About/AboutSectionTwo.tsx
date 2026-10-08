@@ -31,17 +31,17 @@ const AboutSectionTwo = () => {
                   Code fiable et maintenable
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Nous soignons chaque livraison pour garantir des produits
-                  stables, testés et faciles à faire évoluer dans le temps.
+                  Nous construisons des produits stables, testés et faciles à
+                  faire évoluer dans le temps.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Support de qualité
+                  À l&apos;écoute des utilisateurs
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Après la mise en ligne, nous restons disponibles pour
-                  répondre à vos questions et faire évoluer votre projet.
+                  Après chaque lancement, nous suivons les retours de nos
+                  utilisateurs pour améliorer nos produits en continu.
                 </p>
               </div>
               <div className="mb-1">
@@ -50,7 +50,7 @@ const AboutSectionTwo = () => {
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Next.js, TypeScript, Supabase : nous utilisons une stack
-                  fiable et performante pour construire vos produits.
+                  fiable et performante pour construire et lancer nos produits.
                 </p>
               </div>
             </div>

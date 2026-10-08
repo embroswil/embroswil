@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact | Embroswil",
-  description: "Contactez embroswil pour votre prochain projet web ou application.",
+  description: "Contactez Embroswil : partenariats, investissement, presse ou questions sur nos produits.",
   // other metadata
 };
 
@@ -14,7 +14,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contact"
-        description="Une idée de site ou d'application ? Parlons-en."
+        description="Une question ou une proposition de partenariat ? Écrivez-nous."
       />
 
       <Contact />

@@ -12,10 +12,10 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Embroswil conçoit des sites web et applications sur mesure pour propulser votre activité.
+                  Embroswil conçoit et lance ses propres produits numériques.
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base text-body-color dark:text-body-color-dark sm:text-lg">
-                  Une équipe technologie qui transforme vos idées en produits web et mobiles concrets, du prototype au déploiement.
+                  Plateformes web, applications mobiles et outils d&apos;IA : nous imaginons, développons et mettons sur le marché des produits qui répondent à des besoins concrets.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

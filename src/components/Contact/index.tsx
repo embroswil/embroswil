@@ -44,10 +44,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Une idée de projet ?
+                Une question, un partenariat ?
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Décrivez-nous votre besoin, notre équipe vous répondra rapidement par email.
+                Partenaires, investisseurs, utilisateurs ou presse : écrivez-nous, nous vous répondrons rapidement par email.
               </p>
               <form onSubmit={handleSubmit}>
                 <input type="checkbox" name="botcheck" className="hidden" style={{ display: "none" }} />
@@ -101,7 +101,7 @@ const Contact = () => {
                         name="message"
                         required
                         rows={5}
-                        placeholder="Décrivez votre projet"
+                        placeholder="Votre message"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       ></textarea>
                     </div>

@@ -20,8 +20,9 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Embroswil conçoit des sites web et des applications sur
-                  mesure, de l&apos;idée à la mise en production.
+                  Embroswil conçoit, développe et met sur le marché ses propres
+                  produits numériques : plateformes web, applications et outils
+                  d&apos;IA.
                 </p>
                 <div className="flex items-center">
                   <a
