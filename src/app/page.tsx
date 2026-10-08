@@ -1,22 +1,24 @@
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Project from "@/components/project";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Embroswil",
-  description: "Embroswil — agence technologie : sites web et applications sur mesure",
-  // other metadata
+  title: "Embroswil | Sites web et applications sur mesure",
+  description:
+    "Embroswil — agence technologie : sites web et applications sur mesure",
 };
 
 export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Video />
+      <Hero />
+      <Features />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Project />
