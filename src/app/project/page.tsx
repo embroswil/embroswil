@@ -1,39 +1,39 @@
-import Singleproject from "@/components/project/SingleProject";
-import projectData from "@/components/project/projectData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
+import ProjetCard from "@/components/Projets/ProjetCard";
+import { getProjets } from "@/lib/projets";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Nos projets | Embroswil",
-  description: "Découvrez les projets développés par embroswil : Boza et Akasa.",
-  // other metadata
+  description:
+    "Découvrez les produits développés par Embroswil : 1heMall, Boza, School, Video Generator et Vidéo.",
 };
 
-const project = () => {
+const ProjetsPage = async () => {
+  const projets = await getProjets();
   return (
     <>
       <Breadcrumb
         pageName="Nos projets"
-        description="Un aperçu des produits que nous avons conçus et développés, de l'idée à la mise en production."
+        description="Les produits que nous concevons et préparons pour le marché."
       />
-
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[100px] pt-[60px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
-            {projectData.map((project) => (
-              <div
-                key={project.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
-              >
-                <Singleproject project={project} />
-              </div>
-            ))}
-          </div>
+          {projets.length === 0 ? (
+            <p className="text-center text-body-color">
+              Les projets arrivent bientôt.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {projets.map((projet) => (
+                <ProjetCard key={projet.id} projet={projet} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
     </>
   );
 };
 
-export default project;
+export default ProjetsPage;

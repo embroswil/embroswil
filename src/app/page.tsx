@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
+import ProjetsAccueil from "@/components/Projets/ProjetsAccueil";
 import Features from "@/components/Features";
-import Project from "@/components/project";
 import ScrollUp from "@/components/Common/ScrollUp";
 import { Metadata } from "next";
 
@@ -15,8 +15,8 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <ProjetsAccueil />
       <Features />
-      <Project />
     </>
   );
 }

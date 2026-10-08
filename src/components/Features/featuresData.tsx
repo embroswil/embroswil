@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Nos propres produits",
     paragraph:
-      "Nous ne travaillons pas sur commande : nous concevons nos propres plateformes et applications, puis nous les mettons nous-mêmes sur le marché.",
+      "Nous créons et lançons nos propres plateformes, sans travailler sur commande.",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Web et mobile",
     paragraph:
-      "Nos produits sont pensés pour fonctionner partout, sur ordinateur comme sur téléphone, avec des technologies modernes comme Next.js et React.",
+      "Des produits accessibles partout, sur ordinateur comme sur téléphone.",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Des besoins concrets",
     paragraph:
-      "Chaque produit part d'un problème réel rencontré au quotidien, que nous cherchons à résoudre de façon simple et accessible.",
+      "Chaque produit répond à un problème réel du quotidien.",
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const featuresData: Feature[] = [
     ),
     title: "Intelligence artificielle",
     paragraph:
-      "Nous intégrons l'IA au cœur de nos produits (génération de contenu, automatisation, assistants) pour offrir des fonctionnalités à forte valeur.",
+      "L'IA au cœur de nos produits : génération, automatisation, assistants.",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "Du prototype au marché",
     paragraph:
-      "Nous avançons vite : un premier prototype, des tests auprès des utilisateurs, puis un lancement public et une croissance progressive.",
+      "Prototype, tests auprès des utilisateurs, puis lancement public.",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Amélioration continue",
     paragraph:
-      "Après le lancement, nous faisons évoluer chaque produit grâce aux retours des utilisateurs, avec des mises à jour régulières.",
+      "Des mises à jour régulières guidées par les retours des utilisateurs.",
   },
 ];
 export default featuresData;
