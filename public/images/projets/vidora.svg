@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1446"/><stop offset="0.55" stop-color="#3a1f7a"/><stop offset="1" stop-color="#0d0b24"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6ad5"/><stop offset="0.5" stop-color="#8f5bff"/><stop offset="1" stop-color="#4A6CF7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8f5bff" stop-opacity="0.55"/><stop offset="1" stop-color="#8f5bff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="470" cy="250" r="260" fill="url(#glow)"/>
+  <!-- prompt bubble -->
+  <g transform="translate(60 170)">
+    <rect width="250" height="150" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="22" y="28" width="150" height="10" rx="5" fill="#ffffff" fill-opacity="0.75"/>
+    <rect x="22" y="52" width="200" height="10" rx="5" fill="#ffffff" fill-opacity="0.45"/>
+    <rect x="22" y="76" width="175" height="10" rx="5" fill="#ffffff" fill-opacity="0.45"/>
+    <rect x="22" y="108" width="90" height="22" rx="11" fill="#8f5bff"/>
+  </g>
+  <!-- arrow sparkles -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round">
+    <path d="M330 245 H385"/><path d="M370 230 L387 245 L370 260"/>
+  </g>
+  <path d="M352 205 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z" fill="#ffd36a"/>
+  <!-- video frame stack -->
+  <rect x="440" y="120" width="300" height="190" rx="18" fill="#ffffff" fill-opacity="0.08" transform="rotate(6 590 215)"/>
+  <rect x="420" y="140" width="300" height="190" rx="18" fill="url(#screen)"/>
+  <circle cx="570" cy="235" r="38" fill="#ffffff" fill-opacity="0.92"/>
+  <path d="M558 215 L590 235 L558 255 Z" fill="#5b3be0"/>
+  <!-- film strip -->
+  <g fill="#ffffff" fill-opacity="0.85">
+    <rect x="420" y="350" width="300" height="34" rx="8" fill-opacity="0.12"/>
+    <rect x="432" y="358" width="50" height="18" rx="4" fill="#ff6ad5"/>
+    <rect x="492" y="358" width="50" height="18" rx="4" fill="#b07bff"/>
+    <rect x="552" y="358" width="50" height="18" rx="4" fill="#8f5bff"/>
+    <rect x="612" y="358" width="50" height="18" rx="4" fill="#6a6cf7"/>
+    <rect x="672" y="358" width="36" height="18" rx="4" fill="#4A6CF7"/>
+  </g>
+  <path d="M735 110 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z" fill="#ffffff" fill-opacity="0.8"/>
+  <path d="M120 105 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4z" fill="#ffffff" fill-opacity="0.6"/>
+</svg>

@@ -8,6 +8,7 @@ export type Projet = {
   sortie_prevue: string | null;
   date_sortie: string | null;
   lien: string | null;
+  lien_telechargement: string | null;
   image_couverture: string | null;
   images: string[];
   tags: string[];
@@ -35,6 +36,23 @@ export async function getProjets(): Promise<Projet[]> {
     return (await res.json()) as Projet[];
   } catch {
     return [];
+  }
+}
+
+export async function getProjet(slug: string): Promise<Projet | null> {
+  try {
+    const res = await fetch(
+      `${SUPABASE_URL}/rest/v1/projets?select=*&publie=eq.true&slug=eq.${encodeURIComponent(slug)}&limit=1`,
+      {
+        headers: { apikey: SUPABASE_KEY },
+        next: { revalidate: 60 },
+      },
+    );
+    if (!res.ok) return null;
+    const rows = (await res.json()) as Projet[];
+    return rows[0] ?? null;
+  } catch {
+    return null;
   }
 }
 

@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Nos projets | Embroswil",
   description:
-    "Découvrez les produits développés par Embroswil : 1heMall, Boza, School, Video Generator et Vidéo.",
+    "Découvrez les produits développés par Embroswil : 1heMall, Boza, School, Vidora et Voxa.",
 };
 
 const ProjetsPage = async () => {
