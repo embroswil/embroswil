@@ -1,4 +1,3 @@
-import Hero from "@/components/Hero";
 import ProjetsAccueil from "@/components/Projets/ProjetsAccueil";
 import Features from "@/components/Features";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -14,7 +13,6 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
       <ProjetsAccueil />
       <Features />
     </>

@@ -1,41 +1,31 @@
-import Link from "next/link";
 import { getProjets } from "@/lib/projets";
-import ProjetCard from "./ProjetCard";
+import ProjetLigne from "./ProjetLigne";
 
 const ProjetsAccueil = async () => {
   const projets = await getProjets();
-  if (projets.length === 0) return null;
 
   return (
-    <section id="projets" className="pb-6 pt-14 md:pt-20">
+    <section
+      id="projets"
+      className="bg-white pb-10 pt-[110px] dark:bg-gray-dark md:pt-[140px]"
+    >
       <div className="container">
-        <div className="mb-6 flex items-end justify-between gap-4">
-          <div>
-            <h2 className="text-2xl font-bold text-black dark:text-white sm:text-3xl">
-              Nos projets
-            </h2>
-            <p className="mt-1 text-base text-body-color">
-              Les produits que nous développons en ce moment.
-            </p>
-          </div>
-          <Link
-            href="/project"
-            className="shrink-0 text-sm font-semibold text-primary hover:underline"
-          >
-            Tout voir →
-          </Link>
-        </div>
-      </div>
-      <div className="container">
-        <div className="-mx-4 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 pb-4 lg:mx-0 lg:grid lg:grid-cols-3 lg:overflow-visible lg:px-0">
-          {projets.map((projet) => (
-            <div
-              key={projet.id}
-              className="w-[82%] shrink-0 snap-start sm:w-[45%] lg:w-auto"
-            >
-              <ProjetCard projet={projet} />
+        <div className="mx-auto max-w-[1000px]">
+          <p className="mb-1 text-sm font-medium text-primary">
+            Embroswil · studio de produits numériques
+          </p>
+          <h1 className="mb-6 text-2xl font-bold text-black dark:text-white sm:text-3xl">
+            Nos projets
+          </h1>
+          {projets.length === 0 ? (
+            <p className="text-body-color">Les projets arrivent bientôt.</p>
+          ) : (
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
+              {projets.map((projet) => (
+                <ProjetLigne key={projet.id} projet={projet} />
+              ))}
             </div>
-          ))}
+          )}
         </div>
       </div>
     </section>
