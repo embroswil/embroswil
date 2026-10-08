@@ -1,10 +1,7 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Project from "@/components/project";
 import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,10 +16,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <AboutSectionOne />
-      <AboutSectionTwo />
       <Project />
-      <Contact />
     </>
   );
 }
