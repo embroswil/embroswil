@@ -13,6 +13,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${projet.titre} | Embroswil`,
     description: projet.description,
+    openGraph: {
+      title: `${projet.titre} | Embroswil`,
+      description: projet.description,
+      images: projet.image_couverture ? [projet.image_couverture] : ["/images/og-embroswil.jpg"],
+    },
   };
 }
 
