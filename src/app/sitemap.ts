@@ -1,7 +1,7 @@
+import { SITE_URL } from "@/lib/site";
 import { MetadataRoute } from "next";
 import { getProjets } from "@/lib/projets";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://embroswil.com";
 
 // Plan du site pour Google : pages principales + une page par projet
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

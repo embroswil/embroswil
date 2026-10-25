@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -7,8 +8,6 @@ import "../styles/index.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Adresse officielle du site (variable NEXT_PUBLIC_SITE_URL sur Vercel)
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://embroswil.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
