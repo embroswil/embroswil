@@ -100,7 +100,7 @@ export default async function ProjetPage({ params }: Props) {
               href="/contact"
               className="rounded-md border border-body-color/30 px-6 py-3 text-center text-base font-semibold text-black hover:border-primary hover:text-primary dark:text-white"
             >
-              Être informé du lancement
+              {projet.statut === "lance" ? "Nous contacter" : "Être informé du lancement"}
             </Link>
           </div>
 

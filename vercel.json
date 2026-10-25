@@ -1,0 +1,3 @@
+{
+  "crons": [{ "path": "/api/garder-actif", "schedule": "0 6 * * *" }]
+}

@@ -23,13 +23,13 @@ const SUPABASE_KEY =
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
   "sb_publishable_aOxNFnd_-RnoqMk2tdFeeQ_VJ2BCUG-";
 
-export async function getProjets(): Promise<Projet[]> {
+export async function getProjets(sansCache = false): Promise<Projet[]> {
   try {
     const res = await fetch(
       `${SUPABASE_URL}/rest/v1/projets?select=*&publie=eq.true&order=ordre.asc`,
       {
         headers: { apikey: SUPABASE_KEY },
-        next: { revalidate: 60 },
+        ...(sansCache ? { cache: "no-store" as const } : { next: { revalidate: 60 } }),
       },
     );
     if (!res.ok) return [];
